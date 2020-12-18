@@ -1,0 +1,40 @@
+.header{
+    text-align: center;
+    padding: 80px;
+    background-image: url(image.jpg);
+    color: white;
+    background-size: cover;
+    font-size: 35px;
+    border: 2px solid black;
+}
+
+.side{
+    flex: 23%;
+    background-color: lightgray;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.main{
+    flex: 73%;
+    background-color: antiquewhite;
+    padding: 20px;
+    border: 2px solid black;
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    padding: 5px;
+    font-size: 40px;
+    float: right;
+}
+.footer a:hover{
+    background-color: dodgerblue;
+    color: white;
+}
